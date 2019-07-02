@@ -5,7 +5,7 @@ require_relative "../lib/teacher.rb"
 require_relative "../lib/student.rb"
 
 steve = Student.new
-steve.first_name = "Steve"
+steve.first_name = "Steve" #since we have inherited the classes from user, we can call on the method from user
 steve.last_name = "Jobs"
 
 avi = Teacher.new
